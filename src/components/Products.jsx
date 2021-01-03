@@ -11,15 +11,15 @@ function Products(props) {
       </p>
     </div>
   ));
-  
+
   return (
     <div className="contianer">
       <h1 className="text-center text-success py-3">Our Products</h1>
-      <hr/>
+      <hr />
       {productsMap}
       <Switch>
         <Route path="/products/:productID">
-          <div className="row">
+          <div className="row m-0">
             <ProductDetails />
           </div>
         </Route>
