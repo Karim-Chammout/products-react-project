@@ -7,7 +7,7 @@ function ProductDetails(props) {
   const product = products.filter(item => item.id === Number(productID));
 
   return (
-    <div className="col-9 col-md-4">
+    <div className="col-9 col-md-4 mt-4">
       <div className="card bg-dark">
         <img src={product[0].img} className="card-img-top w-100" alt="" />
         <div className="card-body">
